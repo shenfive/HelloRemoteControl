@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1030156182401-0if5nc17crjtccc974naudbrs5svv3o9.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1030156182401-0if5nc17crjtccc974naudbrs5svv3o9</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA3Z3ghp4QjM9fBqfKYlD0I-GVwRVU2--0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1030156182401</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>idv.sjw.HelloRemoteControl</string>
+	<key>PROJECT_ID</key>
+	<string>onlinedemo1-75b5b</string>
+	<key>STORAGE_BUCKET</key>
+	<string>onlinedemo1-75b5b.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1030156182401:ios:c0b8d7705cf3b5dbed7e80</string>
+	<key>DATABASE_URL</key>
+	<string>https://onlinedemo1-75b5b-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>
