@@ -13,10 +13,11 @@
 		3B23507928850E9D003B1F6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B23507728850E9D003B1F6B /* Main.storyboard */; };
 		3B23507B28850EA0003B1F6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B23507A28850EA0003B1F6B /* Assets.xcassets */; };
 		3B23507E28850EA0003B1F6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B23507C28850EA0003B1F6B /* LaunchScreen.storyboard */; };
-		3B23508628850F0F003B1F6B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B23508528850F0F003B1F6B /* GoogleService-Info.plist */; };
 		3B23508928852E6E003B1F6B /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 3B23508828852E6E003B1F6B /* FirebaseAnalytics */; };
 		3B23508B28852E6E003B1F6B /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = 3B23508A28852E6E003B1F6B /* FirebaseRemoteConfig */; };
 		3B23508D28852E6E003B1F6B /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3B23508C28852E6E003B1F6B /* FirebaseRemoteConfigSwift */; };
+		3BE1A15628DB051600F22818 /* remote_config_defaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3BE1A15528DB051600F22818 /* remote_config_defaults.plist */; };
+		3BE1A15828DB09C500F22818 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3BE1A15728DB09C500F22818 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,7 +29,8 @@
 		3B23507A28850EA0003B1F6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B23507D28850EA0003B1F6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B23507F28850EA0003B1F6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3B23508528850F0F003B1F6B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3BE1A15528DB051600F22818 /* remote_config_defaults.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = remote_config_defaults.plist; sourceTree = "<group>"; };
+		3BE1A15728DB09C500F22818 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,9 +66,10 @@
 		3B23507028850E9C003B1F6B /* HelloRemoteControl */ = {
 			isa = PBXGroup;
 			children = (
+				3BE1A15528DB051600F22818 /* remote_config_defaults.plist */,
 				3B23507128850E9C003B1F6B /* AppDelegate.swift */,
-				3B23508528850F0F003B1F6B /* GoogleService-Info.plist */,
 				3B23507328850E9C003B1F6B /* SceneDelegate.swift */,
+				3BE1A15728DB09C500F22818 /* GoogleService-Info.plist */,
 				3B23507528850E9D003B1F6B /* ViewController.swift */,
 				3B23507728850E9D003B1F6B /* Main.storyboard */,
 				3B23507A28850EA0003B1F6B /* Assets.xcassets */,
@@ -142,8 +145,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BE1A15628DB051600F22818 /* remote_config_defaults.plist in Resources */,
 				3B23507E28850EA0003B1F6B /* LaunchScreen.storyboard in Resources */,
-				3B23508628850F0F003B1F6B /* GoogleService-Info.plist in Resources */,
+				3BE1A15828DB09C500F22818 /* GoogleService-Info.plist in Resources */,
 				3B23507B28850EA0003B1F6B /* Assets.xcassets in Resources */,
 				3B23507928850E9D003B1F6B /* Main.storyboard in Resources */,
 			);
